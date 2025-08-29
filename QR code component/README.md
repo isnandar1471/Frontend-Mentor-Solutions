@@ -33,8 +33,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/isnandar1471/Frontend-Mentor-Solutions/tree/main/QR%20code%20component
+- Live Site URL: https://frontend-mentor-solutions-qr-code-c.vercel.app/
 
 ## My process
 

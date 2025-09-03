@@ -1,0 +1,155 @@
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf") format("truetype");
+}
+
+:root {
+  --z-c-green: hsl(75, 94%, 57%);
+  --z-c-white: hsl(0, 0%, 100%);
+  --z-c-grey-700: hsl(0, 0%, 20%);
+  --z-c-grey-800: hsl(0, 0%, 12%);
+  --z-c-grey-900: hsl(0, 0%, 8%);
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+
+  overflow-x: hidden;
+
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--z-c-grey-900);
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.card {
+  background-color: var(--z-c-grey-800);
+
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 20px 24px 20px 24px;
+
+  width: 330px;
+
+  box-sizing: border-box;
+}
+
+.user__image {
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 88px;
+
+  background-color: pink;
+  overflow: hidden;
+
+  border-radius: 50px;
+  text-align: center;
+}
+
+.user__image img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.user__name {
+  color: var(--z-c-white);
+
+  font-weight: 400;
+  font-weight: 500;
+  font-size: 24px;
+
+  text-align: center;
+
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.user__location {
+  color: var(--z-c-green);
+
+  font-weight: 600;
+
+  text-align: center;
+
+  margin-bottom: 28px;
+
+  font-size: 13.8px;
+}
+
+.user__quote {
+  color: var(--z-c-white);
+
+  font-weight: 200;
+  font-size: 14.5px;
+
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 24px;
+
+  text-align: center;
+}
+
+.links {
+  font-weight: 600;
+
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+}
+
+.links__item {
+  background-color: var(--z-c-grey-700);
+  color: var(--z-c-white);
+
+  text-align: center;
+  vertical-align: middle;
+
+  list-style: none;
+
+  padding: 14px;
+
+  box-sizing: border-box;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+
+  border-radius: 8px;
+}
+
+.links__item:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 376px) {
+
+  .card {
+    width: 380px;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 38px;
+    padding-right: 38px;
+  }  
+}

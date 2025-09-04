@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Inter";
-  src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf") format("truetype");
+  src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf")
+    format("truetype");
 }
 
 :root {
@@ -40,10 +41,9 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 14px;
 
-  margin-left: auto;
-  margin-right: auto;
+  margin-inline: auto;
 
-  padding: 20px 24px 20px 24px;
+  padding: 20px 24px;
 
   width: 330px;
 
@@ -51,8 +51,7 @@ body {
 }
 
 .user__image {
-  margin-left: auto;
-  margin-right: auto;
+  margin-inline: auto;
 
   width: 88px;
 
@@ -74,14 +73,12 @@ body {
 .user__name {
   color: var(--z-c-white);
 
-  font-weight: 400;
   font-weight: 500;
   font-size: 24px;
 
   text-align: center;
 
-  margin-top: 30px;
-  margin-bottom: 10px;
+  margin-block: 30px 10px;
 }
 
 .user__location {
@@ -102,8 +99,7 @@ body {
   font-weight: 200;
   font-size: 14.5px;
 
-  margin-left: 0;
-  margin-right: 0;
+  margin-inline: 0;
   margin-bottom: 24px;
 
   text-align: center;
@@ -119,23 +115,38 @@ body {
 }
 
 .links__item {
+  list-style: none;
+
+  box-sizing: border-box;
+
+  margin-inline: auto;
+  margin-bottom: 16px;
+}
+
+.links__item a {
   background-color: var(--z-c-grey-700);
   color: var(--z-c-white);
 
   text-align: center;
   vertical-align: middle;
 
-  list-style: none;
-
   padding: 14px;
 
   box-sizing: border-box;
 
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 16px;
+  display: inline-block;
+  width: 100%;
 
   border-radius: 8px;
+
+  text-decoration: none;
+
+  transition: all 0.1s ease-in-out;
+}
+
+.links__item a:hover {
+  background-color: var(--z-c-green);
+  color: var(--z-c-grey-800);
 }
 
 .links__item:last-child {
@@ -143,13 +154,9 @@ body {
 }
 
 @media (min-width: 376px) {
-
   .card {
     width: 380px;
 
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 38px;
-    padding-right: 38px;
-  }  
+    padding: 40px 38px;
+  }
 }

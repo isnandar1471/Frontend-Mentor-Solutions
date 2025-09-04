@@ -1,6 +1,6 @@
 # Frontend Mentor - Social links profile solution
 
-This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -42,31 +42,39 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
-<!-- 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+#### Alternative `margin-left` & `margin-right` only, or `margin-top` & `margin-bottom` only
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+/* Instead */
+.card {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Use */
+.card {
+  margin-inline: auto;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+
+```css
+/* Instead */
+.card {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+/* Use */
+.card {
+  margin-block: auto;
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+Note: margin-inline and margin-block are not shorthand for margin-left/right or margin-top/bottom. They're actually shorthand for margin-inline-start/end and margin-block-start/end.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+These properties follow the text direction. If your text direction is the default (Left-to-Right), you can safely use them. Otherwise, consider if they're the right choice. 
 
+<!--
 ### Continued development
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
@@ -84,7 +92,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - Website - [Isnandar Fajar Pangestu](https://sudutfajar.my.id)
 - Frontend Mentor - [@isnandar1471](https://www.frontendmentor.io/profile/isnandar1471)
-<!-- 
+<!--
+
 ## Acknowledgments
 
 This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.

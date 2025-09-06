@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 :root {
   --z-white: hsl(0, 0%, 100%);
@@ -30,66 +30,81 @@ body {
 .card {
   margin: auto;
 
-  border-radius: 15px;
-  padding: 14px;
+  border-radius: 20px;
+  padding: 16px;
 
-  width: 300px;
+  width: 288px;
 
   background-color: var(--z-white);
 
-  box-shadow: rgba(149, 157, 165, 0.2) 1px 10px 30px;
+  /* box-shadow: rgba(149, 157, 165, 0.2) 1px 18px 30px; */
+  box-shadow: 1px 12px 20px 2px rgba(149, 157, 165, 0.2);
 }
 
 img {
-  width: 300px;
+  width: 100%;
   border-radius: 10px;
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
 
-  width: 300px;
+  width: 288px;
 
   text-overflow: ellipsis;
   overflow: hidden;
 
+  margin-block: 20px 15px;
+
+  line-height: 26px;
+
+  color: var(--z-slate-900);
 }
 
 p {
+  margin-inline: auto;
+  margin-bottom: 25px;
+
   font-weight: 400;
-  font-size: 17px;
+  font-size: 15.5px;
 
   text-overflow: ellipsis;
   overflow: hidden;
+
+  width: 250px;
+
+  line-height: 21px;
+
+  color: var(--z-slate-500);
 }
 
 @media (min-width: 376px) {
 
   .card {
-    width: 410px;
-    padding: 20px;
-    border-radius: 24px;
+    margin-top: 230px;
+    width: 288px;
+    padding: 16px;
+    border-radius: 20px;
   }
   
   img {
-    width: 410px;
-    border-radius: 16px;
+    width: 100%;
+    border-radius: 10px;
   }
 
   h1 {
-    margin-left: auto;
-    margin-right: auto;
-    width: 360px;
-    font-weight: 900;
-    
-    font-size: 30px;
+    margin-inline: auto;
+
+    /* width: 360px; */
+    font-weight: 700;    
+    font-size: 22px;
   }
   
   p {
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 22px;
-    width: 380px;
+    margin-inline: auto;
+    margin-top: 15.5px;
+    font-size: 15.4px;
+    width: 260px;
   }
 }

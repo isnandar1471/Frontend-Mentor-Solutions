@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+:root {
+  --z-c-white: hsl(0, 0%, 100%);
+
+  --z-c-stone-100: hsl(30, 54%, 90%);
+  --z-c-stone-150: hsl(30, 18%, 87%);
+  --z-c-stone-600: hsl(30, 10%, 34%);
+  --z-c-stone-900: hsl(24, 5%, 18%);
+
+  --z-c-brown-800: hsl(14, 45%, 36%);
+
+  --z-c-rose-800: hsl(332, 51%, 32%);
+  --z-c-rose-50: hsl(330, 100%, 98%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  background-color: var(--z-c-stone-100);
+
+  font-family: "Outfit";
+  font-size: 16px;
+  color: var(--z-c-stone-600);
+  line-height: 150%;
+}
+
+.card {
+  background-color: var(--z-c-white);
+}
+
+.card__image {
+  max-width: 375px;
+
+  transition: all 0.5s ease-in-out;
+}
+
+.card__image img {
+  height: 100%;
+  width: 100%;
+
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.card__title {
+  margin-top: 40px;
+}
+
+.card__body {
+  padding-inline: 32px;
+}
+
+h1 {
+  font-family: "Young Serif";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 100%;
+  color: var(--z-c-stone-900);
+
+  margin-block: 34px 24px;
+}
+
+h2 {
+  color: var(--z-c-brown-800);
+  font-family: "Young Serif";
+  font-size: 28px;
+  font-weight: 500;
+  margin-block: 33px 21px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+hr {
+  margin-top: 28px;
+  border-top: 1px solid var(--z-c-stone-150);
+}
+
+#header p {
+  margin-bottom: 32px;
+}
+
+.preparation-time {
+  background-color: var(--z-c-rose-50);
+  padding: 22px 24px;
+}
+
+.preparation-time h3 {
+  color: var(--z-c-rose-800);
+}
+
+.preparation-time ul {
+  margin-top: 10px;
+}
+
+.preparation-time ul li {
+  position: relative;
+
+  list-style: none;
+  padding-block: 4px;
+  padding-left: 40px;
+}
+
+.preparation-time ul li::before {
+  content: "";
+  position: absolute;
+  left: 8px;
+  display: inline-block;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 4px;
+  background-color: var(--z-c-stone-900);
+}
+
+#ingredients ul li {
+  position: relative;
+
+  list-style: none;
+  padding-block: 4px;
+  padding-left: 40px;
+}
+
+#ingredients ul li::before {
+  content: "";
+  position: absolute;
+  left: 8px;
+  display: inline-block;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 4px;
+  background-color: var(--z-c-stone-900);
+}
+
+#instructions ol {
+  padding: 4px 0px 4px 25px;
+}
+
+#instructions ol li {
+  padding-left: 14px;
+  margin-bottom: 8px;
+}
+
+#instructions ol li:last-child {
+  margin-bottom: 0px;
+}
+
+#instructions ol li::marker {
+  font-weight: 800;
+  color: var(--z-c-brown-800);
+}
+
+#nutrition h2 {
+  margin-bottom: 24px;
+}
+
+#nutrition p {
+  margin-bottom: 12px;
+}
+
+#nutrition table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#nutrition table strong {
+  color: var(--z-c-brown-800);
+}
+
+#nutrition table tr td {
+  padding-block: 12px;
+  width: 50%;
+  border-bottom: 1px solid var(--z-c-stone-100);
+}
+
+#nutrition table tr td:nth-child(1) {
+  padding-left: 32px;
+}
+
+#nutrition table tr td:nth-child(2) {
+  padding-left: 8px;
+}
+
+#nutrition table tr:last-child td {
+  border-bottom: 0px;
+}
+
+#nutrition {
+  padding-bottom: 40px;
+}
+
+@media (min-width: 376px) {
+  .card {
+    margin: 122px auto;
+    width: 736px;
+    padding-top: 20px;
+
+    border-radius: 26px;
+  }
+
+  .card__image {
+    margin-inline: auto;
+    max-width: 100%;
+
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 20px 40px 42px 40px;
+  }
+
+  .card__image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    vertical-align: middle;
+  }
+
+  .card__title {
+    font-size: 40px;
+  }
+
+  h1,
+  h2 {
+    margin-inline: 8px;
+  }
+
+  #header p,
+  .preparation-time,
+  #nutrition p,
+  #ingredients ul,
+  #instructions ol {
+    margin-inline: 8px;
+  }
+
+  .preparation-time {
+    padding: 26px 28px;
+  }
+
+  #nutrition table tr td:nth-child(1) {
+    padding-left: 40px;
+  }
+
+  #nutrition table tr td {
+    padding-block: 11.5px;
+  }
+
+  #nutrition {
+    padding-bottom: 30px;
+  }
+
+  hr {
+    margin-inline: 8px;
+  }
+}

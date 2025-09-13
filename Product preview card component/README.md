@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: ...
-- Live Site URL: ...
+- Solution URL: https://github.com/isnandar1471/Frontend-Mentor-Solutions/tree/main/Product%20preview%20card%20component
+- Live Site URL: https://frontend-mentor-solutions-product-p.vercel.app/
 
 ## My process
 

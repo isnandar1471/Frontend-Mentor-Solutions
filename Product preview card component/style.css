@@ -168,7 +168,6 @@ body {
 }
 
 @media screen and (min-width: 376px) {
-
   .card {
     margin-top: 0;
     flex-direction: row;
@@ -184,7 +183,7 @@ body {
   }
 
   .product-image img {
-    filter: brightness(90%) contrast(120%) saturate(130%) 
+    filter: brightness(90%) contrast(120%) saturate(130%);
   }
 
   .product-detail {
@@ -213,5 +212,4 @@ body {
   .cart-button {
     height: 48px;
   }
-
 }

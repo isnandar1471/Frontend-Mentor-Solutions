@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
 :root {
   --z-white: hsl(0, 0%, 100%);
   --z-slate-300: hsl(212, 45%, 89%);
   --z-slate-500: hsl(216, 15%, 48%);
   --z-slate-900: hsl(218, 44%, 22%);
-
 }
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -80,14 +80,13 @@ p {
 }
 
 @media (min-width: 376px) {
-
   .card {
     margin-top: 230px;
     width: 288px;
     padding: 16px;
     border-radius: 20px;
   }
-  
+
   img {
     width: 100%;
     border-radius: 10px;
@@ -97,10 +96,10 @@ p {
     margin-inline: auto;
 
     /* width: 360px; */
-    font-weight: 700;    
+    font-weight: 700;
     font-size: 22px;
   }
-  
+
   p {
     margin-inline: auto;
     margin-top: 15.5px;

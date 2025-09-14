@@ -46,27 +46,17 @@ Users should be able to:
 <!-- - [Next.js](https://nextjs.org/) - React framework -->
 <!-- - [Styled Components](https://styled-components.com/) - For styles -->
 
-<!-- ### What I learned
+### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+- Variable cannot be used in media query. Only fixed value can be used in media query
 
-To see how you can add code snippets, see below:
+❌ This will not work ❌
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+@media (min-width: var(--layout-mobile)) {
+  ...
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more. -->
 
 <!-- ### Continued development
 
@@ -79,9 +69,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+<!-- - Website - [Add your name here](https://www.your-site.com) -->
+- Frontend Mentor - [@isnandar1471](https://www.frontendmentor.io/profile/isnandar1471)
+<!-- - Twitter - [@yourusername](https://www.twitter.com/yourusername) -->
 
 <!-- ## Acknowledgments
 

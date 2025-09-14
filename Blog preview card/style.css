@@ -1,28 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap");
 
 :root {
   --z_yellow: hsl(47, 88%, 63%);
   --z_gray-950: hsl(0, 0%, 7%);
   --z_gray-500: hsl(0, 0%, 42%);
   --z_white: hsl(0, 0%, 100%);
-
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-body, h1, p {
+body,
+h1,
+p {
   margin: 0px;
   padding: 0px;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
 body {
-  font-family: 'Figtree';
+  font-family: "Figtree";
   font-weight: 500;
   font-size: 16px;
 
@@ -34,7 +38,6 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
 }
 
 .card {
@@ -56,7 +59,7 @@ body {
 }
 
 .card__img {
-  overflow: hidden;  
+  overflow: hidden;
 
   border-radius: 10px;
   height: 201px;
@@ -64,7 +67,7 @@ body {
   margin-bottom: 24px;
 }
 
-.card__img img {  
+.card__img img {
   width: 100%;
   height: 100%;
 
@@ -156,7 +159,6 @@ body {
 }
 
 @media (min-width: 376px) {
-
   .card {
     margin-top: 220px;
     width: 384px;

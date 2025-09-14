@@ -77,6 +77,8 @@ header p {
 }
 
 .card {
+  background-color: var(--color-white);
+
   border-top: 4px solid var(--color-grey-400);
 
   padding: 28px 32px 46px;

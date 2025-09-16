@@ -25,7 +25,7 @@ Each project is organized into its own folder, and every folder already has its 
 | [Recipe page](./Recipe%20page/)                                                   | https://frontend-mentor-solutions-recipe-pa.vercel.app/ |
 | [Product preview card component](./Product%20preview%20card%20component/)         | https://frontend-mentor-solutions-product-p.vercel.app/ |
 | [Four card feature section](./Four%20card%20feature%20section/)                   | https://frontend-mentor-solutions-four-card.vercel.app/ |
-| [Testimonials grid section solution](./Testimonials%20grid%20section%20solution/) |                                                         |
+| [Testimonials grid section solution](./Testimonials%20grid%20section%20solution/) | https://frontend-mentor-solutions-testimoni.vercel.app/ |
 
 ---
 

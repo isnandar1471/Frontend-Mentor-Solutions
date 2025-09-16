@@ -11,10 +11,10 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+  <!-- - [Continued development](#continued-development) -->
+  <!-- - [Useful resources](#useful-resources) -->
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+<!-- - [Acknowledgments](#acknowledgments) -->
 
 ## Overview
 
@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://github.com/isnandar1471/Frontend-Mentor-Solutions/tree/main/Testimonials%20grid%20section%20solution
+- Live Site URL: https://frontend-mentor-solutions-testimoni.vercel.app/
 
 ## My process
 
@@ -46,27 +46,11 @@ Users should be able to:
 <!-- - [Next.js](https://nextjs.org/) - React framework -->
 <!-- - [Styled Components](https://styled-components.com/) - For styles -->
 
-<!-- ### What I learned -->
+### What I learned
 
-<!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. -->
+- I've learned how to use the :hover effect without disturbing the element's box-shadow
 
-<!-- To see how you can add code snippets, see below: -->
-
-<!-- ```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-``` -->
-
-<!-- If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more. -->
+- I've learned how to use stack + position to provide a background pattern without covering the element above it
 
 <!-- ### Continued development -->
 

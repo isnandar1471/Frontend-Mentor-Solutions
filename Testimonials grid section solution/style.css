@@ -28,10 +28,13 @@
   box-sizing: border-box;
 }
 
+html,
 body {
   width: 100%;
-  min-height: 100vh;
+  min-height: 1029px;
+}
 
+body {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -159,6 +162,7 @@ hgroup p {
 
 @media (min-width: 420px) {
   main {
+    margin-top: 86px;
     max-width: 500px;
     margin-inline: auto;
     display: grid;
@@ -214,7 +218,7 @@ hgroup p {
 
 @media (min-width: 960px) {
   main {
-    margin-top: 154px;
+    margin-top: 100px;
 
     max-width: 1120px;
     grid-template-areas:

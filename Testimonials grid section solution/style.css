@@ -218,7 +218,7 @@ hgroup p {
 
 @media (min-width: 960px) {
   main {
-    margin-top: 100px;
+    margin-top: 28px;
 
     max-width: 1120px;
     grid-template-areas:

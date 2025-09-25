@@ -1,6 +1,6 @@
 # Frontend Mentor Solutions
 
-This repository contains my solutions to various **Frontend Mentor Learning Path**.  
+This repository contains my solutions to various **Frontend Mentor Learning Path**.
 Each project is organized into its own folder, and every folder already has its own README with more details.
 
 ---
@@ -26,7 +26,7 @@ Each project is organized into its own folder, and every folder already has its 
 | [Product preview card component](./Product%20preview%20card%20component/)         | https://frontend-mentor-solutions-product-p.vercel.app/                                            |
 | [Four card feature section](./Four%20card%20feature%20section/)                   | https://frontend-mentor-solutions-four-card.vercel.app/                                            |
 | [Testimonials grid section solution](./Testimonials%20grid%20section%20solution/) | https://isnandar1471.github.io/Frontend-Mentor-Solutions/Testimonials%20grid%20section%20solution/ |
-| 🚧 [Article preview component](./Article%20preview%20component/) | https://isnandar1471.github.io/Frontend-Mentor-Solutions/Article%20preview%20component/ |
+| [Article preview component](./Article%20preview%20component/)                     | https://isnandar1471.github.io/Frontend-Mentor-Solutions/Article%20preview%20component/            |
 
 ---
 
@@ -34,6 +34,7 @@ Each project is organized into its own folder, and every folder already has its 
 
 - HTML5
 - CSS3 (Flexbox, Grid, Responsive design)
+- JavaScript
 
 ---
 

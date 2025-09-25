@@ -49,11 +49,17 @@ Users should be able to:
 
 ### What I learned
 
-penggunaan absolute, left 0, right 0 dengan width fixed, ternyata akan mengutamakan left 0, dan mengabaikan right 0
+- Absolute with `left: 0; right: 0;` and Fixed Width
+
+  If an element is `absolute` with both `left: 0` and `right: 0` **and has a fixed width**,  
+  the browser prioritizes **`left: 0`** and ignores **`right: 0`**.
+
+  To make both work, the width must be `auto` (it will then stretch between left and right).
 
 ### Continued development
 
-- aku masih belum bisa menggunakan .elementAbsolute z-index 1 dengan .elementAbsolute::after z-index 0. pseude after masih tetap di atas .elementAbsolute meskipun z-index kurang dari dia.
+- I still don’t understand why using `.elementAbsolute { z-index: 1; }` with  
+  `.elementAbsolute::after { z-index: 0; }` results in the pseudo-element staying **above** its parent, even though its z-index is lower.
 
 <!-- ### Useful resources -->
 

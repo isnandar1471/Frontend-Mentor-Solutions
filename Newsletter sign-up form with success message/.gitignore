@@ -23,13 +23,13 @@ npm-debug.log*
 
 # Production
 /build
-# /dist
+/dist
 /.next
 /out
 
 # IDEs and editors
 /.idea
-/.vscode
+# /.vscode
 *.swp
 *.swo
 

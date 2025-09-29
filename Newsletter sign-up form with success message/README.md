@@ -38,8 +38,8 @@ Other screenshots in [solution](./solution/)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/isnandar1471/Frontend-Mentor-Solutions/tree/main/Newsletter%20sign-up%20form%20with%20success%20message
+- Live Site URL: https://isnandar1471.github.io/Frontend-Mentor-Solutions/Newsletter%20sign-up%20form%20with%20success%20message/
 
 ## My process
 

@@ -1,4 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap");
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/Figtree-Italic-VariableFont_wght.ttf");
+  font-weight: 100 900;
+  font-style: italic;
+}
 
 :root {
   --z_yellow: hsl(47, 88%, 63%);

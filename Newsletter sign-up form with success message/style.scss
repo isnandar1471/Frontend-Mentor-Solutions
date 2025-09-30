@@ -43,9 +43,12 @@ body {
 body {
   font-family: $typography-font-family;
   font-size: $typography-font-size;
+  background-color: $color-blue-700;
 }
 
 #subscribe-form {
+  background-color: $color-white;
+
   &.display-none {
     display: none;
   }
@@ -60,7 +63,7 @@ body {
 
   > main {
     margin-inline: 24px;
-    margin-block: 36px 48px;
+    padding-block: 36px 48px;
 
     > h1 {
       font-size: 40px;
@@ -167,7 +170,8 @@ body {
 }
 
 #subscribe-message {
-  padding: 40px 24px;
+  background-color: $color-white;
+  padding: 40px 24px 40px 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -215,41 +219,86 @@ body {
 }
 
 @media (min-width: 600px) {
+  body {
+    min-height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   #subscribe-form {
+    height: fit-content;
+    padding: 32px;
+    border-radius: 32px;
+    max-width: 620px;
+    margin-inline: auto;
+    margin-top: 32px;
+    // margin-bottom: 32px;
+
     > picture {
-      width: calc(100% - 64px);
-      margin-top: 32px;
-      margin-inline: auto;
+      width: 100%;
     }
 
     > main {
-      margin-inline: 32px;
+      margin-inline: 0px;
+      padding-bottom: 0;
+
+      > h1 {
+        font-size: 48px;
+      }
     }
   }
 
   #subscribe-message {
-    padding-inline: 32px;
+    margin-block: 0px;
+
+    height: auto;
+    border-radius: 36px;
+    // top: -50%;
+    // transform: translateY(50%);
+    width: 504px;
+
+    padding-inline: 64px;
+    padding-block: 48px 64px;
+
+    border-radius: 32px;
+    // max-width: 620px;
+    margin-inline: auto;
+
+    > h1 {
+      font-size: 48px;
+      line-height: 1em;
+    }
+
+    > p {
+      margin-bottom: 40px;
+    }
+
+    > img,
+    > button {
+      margin-top: 0;
+    }
   }
 }
 
 @media (min-width: 900px) {
   body {
-    background-color: $color-blue-700;
     min-height: 1080px;
   }
 
   #subscribe-form {
+    max-width: unset;
+
     width: fit-content;
+    margin-top: 24px;
     margin-inline: auto;
     padding: 24px;
     position: relative;
     border-radius: 38px;
 
-    top: 50%;
-    transform: translateY(-50%);
     display: flex;
     flex-direction: row-reverse;
-    background-color: $color-white;
 
     > picture {
       margin: 0;
@@ -279,32 +328,8 @@ body {
   }
 
   #subscribe-message {
-    background-color: $color-white;
-    height: auto;
-    width: 504px;
-    border-radius: 36px;
-    margin-top: 20px;
-    margin-inline: auto;
-    top: -50%;
-    transform: translateY(50%);
-    padding-inline: 64px;
-    padding-block: 48px 64px;
-
-    > img {
-      margin-top: 0px;
-    }
-
     > h1 {
       font-size: 56px;
-      line-height: 1em;
-    }
-
-    > p {
-      margin-bottom: 40px;
-    }
-
-    > button {
-      margin-top: 0;
     }
   }
 }

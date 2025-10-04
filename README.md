@@ -19,22 +19,23 @@ Each project is organized into its own folder, and every folder already has its 
 
 | Folder                                                                                                    | Demo                                                                                                             |
 | --------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| [Blog preview card](./Blog%20preview%20card/)                                                             | https://frontend-mentor-solutions-theta.vercel.app/                                                              |
-| [QR code component](./QR%20code%20component/)                                                             | https://frontend-mentor-solutions-qr-code-c.vercel.app/                                                          |
-| [Social links profile](./Social%20links%20profile/)                                                       | https://frontend-mentor-solutions-social-li.vercel.app/                                                          |
-| [Recipe page](./Recipe%20page/)                                                                           | https://frontend-mentor-solutions-recipe-pa.vercel.app/                                                          |
-| [Product preview card component](./Product%20preview%20card%20component/)                                 | https://frontend-mentor-solutions-product-p.vercel.app/                                                          |
-| [Four card feature section](./Four%20card%20feature%20section/)                                           | https://frontend-mentor-solutions-four-card.vercel.app/                                                          |
+| [Blog preview card](./Blog%20preview%20card/)                                                             | https://isnandar1471.github.io/Frontend-Mentor-Solutions/Blog%20preview%20card/                                  |
+| [QR code component](./QR%20code%20component/)                                                             | https://isnandar1471.github.io/Frontend-Mentor-Solutions/QR%20code%20component/                                  |
+| [Social links profile](./Social%20links%20profile/)                                                       | https://isnandar1471.github.io/Frontend-Mentor-Solutions/Social%20links%20profile/                               |
+| [Recipe page](./Recipe%20page/)                                                                           | https://isnandar1471.github.io/Frontend-Mentor-Solutions/Recipe%20page/                                          |
+| [Product preview card component](./Product%20preview%20card%20component/)                                 | https://isnandar1471.github.io/Frontend-Mentor-Solutions/Product%20preview%20card%20component/                   |
+| [Four card feature section](./Four%20card%20feature%20section/)                                           | https://isnandar1471.github.io/Frontend-Mentor-Solutions/Four%20card%20feature%20section/                        |
 | [Testimonials grid section solution](./Testimonials%20grid%20section%20solution/)                         | https://isnandar1471.github.io/Frontend-Mentor-Solutions/Testimonials%20grid%20section%20solution/               |
 | [Article preview component](./Article%20preview%20component/)                                             | https://isnandar1471.github.io/Frontend-Mentor-Solutions/Article%20preview%20component/                          |
 | [Newsletter sign-up form with success message](./Newsletter%20sign-up%20form%20with%20success%20message/) | https://isnandar1471.github.io/Frontend-Mentor-Solutions/Newsletter%20sign-up%20form%20with%20success%20message/ |
+| [Time tracking dashboard solution](./Time%20tracking%20dashboard%20solution/)                             | https://isnandar1471.github.io/Frontend-Mentor-Solutions/Time%20tracking%20dashboard%20solution/                 |
 
 ---
 
 ## 🛠️ Common Tech Stack
 
 - HTML5
-- CSS3 (Flexbox, Grid, Responsive design)
+- CSS3 (Flexbox, Grid, Responsive design, SCSS)
 - JavaScript
 
 ---

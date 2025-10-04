@@ -1,0 +1,346 @@
+:root {
+  // Colors
+  // Primary
+  --purple-600: hsl(246, 80%, 60%);
+  --activity-work: hsl(15, 100%, 70%);
+  --activity-play: hsl(195, 74%, 62%);
+  --activity-study: hsl(348, 100%, 68%);
+  --activity-exercise: hsl(145, 58%, 55%);
+  --activity-social: hsl(264, 64%, 52%);
+  --activity-selfcare: hsl(43, 84%, 65%);
+  --activity: grey;
+  // Neutral
+  --navy-950: hsl(226, 43%, 10%);
+  --navy-hover: #34397b;
+  --navy-900: hsl(235, 46%, 20%);
+  --purple-500: hsl(235, 45%, 61%);
+  --navy-200: hsl(236, 100%, 87%);
+
+  // Typography
+  // Body
+  --font-size: 18px;
+  // Font
+  --family: "Rubik";
+  // --Weights: 300, 400, 500
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--family);
+  font-size: var(--font-size);
+  color: var(--navy-200);
+
+  background-color: var(--navy-950);
+  padding-block: 80px 64px;
+
+  > header {
+    background-color: var(--navy-900);
+    margin-bottom: 24px;
+    margin-inline: auto;
+    border-radius: 16px;
+    overflow: hidden;
+    width: clamp(320px, 95%, 330px);
+
+    > section {
+      padding: 32px 28px;
+
+      background-color: var(--purple-600);
+      border-bottom-left-radius: 16px;
+      border-bottom-right-radius: 16px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 18px;
+
+      > img {
+        width: 70px;
+        border: 3px solid white;
+        border-radius: 50%;
+      }
+
+      > h1 {
+        height: 100%;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.7rem;
+        > strong {
+          color: var(--navy-200);
+          font-size: 24px;
+          display: block;
+        }
+      }
+    }
+
+    > nav {
+      padding: 24px 20px 24px 34px;
+
+      > ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        > li {
+          > a {
+            text-decoration: none;
+            color: var(--purple-500);
+
+            &:hover {
+              color: var(--navy-200);
+            }
+          }
+
+          &.active > a {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  > main {
+    margin-bottom: 8px;
+    margin-inline: auto;
+
+    width: clamp(320px, 95%, 330px);
+
+    > section {
+      display: none;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+      gap: 24px;
+
+      &.active {
+        display: flex;
+      }
+
+      > article {
+        background-color: var(--activity);
+        background-repeat: no-repeat;
+        background-position: right 16px top -10px;
+        border-radius: 16px;
+        overflow: hidden;
+        height: 160px;
+        position: relative;
+        width: 100%;
+
+        &:hover:not(:has(.icon-ellipsis:hover)) {
+          cursor: pointer;
+
+          > .content-wrapper {
+            background-color: var(--navy-hover);
+          }
+        }
+
+        > .content-wrapper {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          border-top-left-radius: 16px;
+          border-top-right-radius: 16px;
+          background-color: var(--navy-900);
+          padding: 28px 24px 28px;
+
+          > .content-header,
+          > .content-body {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+          }
+
+          > .content-header {
+            margin-bottom: 6px;
+
+            > h3 {
+              font-size: 18px;
+              font-weight: 500;
+              color: white;
+            }
+
+            > .icon-ellipsis {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+              
+              &:hover {
+                cursor: pointer;
+                color: white;
+              }
+            }
+          }
+          > .content-body {
+            > p:first-child {
+              font-weight: 300;
+              font-size: 32px;
+              color: white;
+            }
+            > p:last-child {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 680px) {
+  body {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+    padding-top: 120px;
+
+    > header {
+      position: sticky;
+      top: 80px;
+      width: 280px;
+      margin: unset;
+
+      > section {
+        display: block;
+
+        > article {
+          width: 280px;
+        }
+
+        > h1 {
+          > strong {
+            font-weight: 300;
+            line-height: 3.2rem;
+
+            color: white;
+            font-size: 42px;
+          }
+        }
+      }
+
+      > nav {
+        > ul {
+          display: block;
+          line-height: 2.4rem;
+        }
+      }
+    }
+
+    > main {
+      margin: unset;
+      width: 290px;
+
+      > section {
+        > article {
+          width: 280px;
+          height: 220px;
+
+          > .content-wrapper {
+            > .content-body {
+              display: block;
+              > p:first-child {
+                font-size: 48px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .attribution {
+      position: absolute;
+      bottom: 0px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
+
+@media (min-width: 960px) {
+  body {
+    padding-top: 180px;
+
+    > main {
+      width: 590px;
+    }
+  }
+}
+
+@media (min-width: 1300px) {
+  body {
+    // padding-left: 50px;
+    align-items: stretch;
+    padding-top: 254px;
+
+    > header {
+      margin-left: 30px;
+      width: 254px;
+      > section {
+        padding-bottom: 76px;
+        padding-left: 30px;
+        > h1 {
+          font-size: 15px;
+          line-height: 1.2rem;
+
+          > strong {
+            font-size: 40px;
+          }
+
+        }
+        > img {
+          width: 84px;
+          margin-bottom: 36px;
+        }
+
+      }
+      > nav {
+        height: auto;
+        padding-block: 18px;
+
+        > ul {
+          > li {
+            line-height: 2.6rem;
+          }
+        }
+      }
+    }
+
+    > main {
+      width: 824px;
+
+      > section {
+        gap: 30px;
+
+        > article {
+          width: 254px;
+          height: 242px;
+
+          > .content-wrapper {
+            height: 200px;
+            padding-inline: 30px;
+            padding-top: 30px;
+
+            > .content-body {
+              padding-top: 18px;
+
+              > p:first-child {
+                font-size: 56px;
+                line-height: unset;
+                margin-bottom: 8px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

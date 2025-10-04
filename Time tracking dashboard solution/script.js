@@ -35,6 +35,13 @@ function getBackgrounImage(activity) {
   return "unset";
 }
 
+function getPreviousLabelByPeriod(period) {
+  if (period.toLowerCase().includes("daily")) return "Yesterday";
+  if (period.toLowerCase().includes("weekly")) return "Last Week";
+  if (period.toLowerCase().includes("monthly")) return "Last Month";
+  return "Previous";
+}
+
 function debounce(func, delay) {
   let timeout;
   return function (...args) {
@@ -61,11 +68,6 @@ function createStringFromNode(node) {
   return result;
 }
 
-window.addEventListener('resize', debounce(function(ev) {
-    console.log("document.body.clientWidth " + document.body.clientWidth + ". " + document.body.clientWidth*95/100)
-    console.log("document.body.offsetWidth " + document.body.offsetWidth + ". " + document.body.offsetWidth*95/100)
-}, 300));
-
 const navigationList = document.querySelector("#navigation-list");
 const main = document.querySelector("main");
 let currentPeriod = null;
@@ -91,14 +93,10 @@ document.addEventListener("DOMContentLoaded", async function (event) {
  
     const result = getAll[0].value;
     const strIconEllipsis = getAll[1].value;
-    console.log("result " + JSON.stringify(result));
-    console.log("strIconEllipsis " + strIconEllipsis);
 
     const icon = createElementFromHTML(strIconEllipsis);
     icon.querySelector("path").setAttribute("fill", "currentColor");
     
-    console.log(icon);
-
     const periods = getPeriods(result);
     currentPeriod = [...periods][1];
 
@@ -127,7 +125,7 @@ document.addEventListener("DOMContentLoaded", async function (event) {
               </div>
               <div class="content-body">
                 <p>${value.timeframes[period].current}hrs</p>
-                <p>Last Week - ${value.timeframes[period].previous}hrs</p>
+                <p>${getPreviousLabelByPeriod(period)} - ${value.timeframes[period].previous}hrs</p>
               </div>
             </div>
           </article>
@@ -137,7 +135,6 @@ document.addEventListener("DOMContentLoaded", async function (event) {
       };
 
     });
-    console.log(sections);
   
     for (const period in sections) {
       console.log("period " + period)
@@ -151,15 +148,11 @@ document.addEventListener("DOMContentLoaded", async function (event) {
       main.innerHTML += sectionHtml;
     };
 
-    // sections.map((section) => stringTo
-
-    console.log(result);
-    console.log(currentPeriod);
   } catch (error) {
-    console.log("error");
+    console.error(error);
     throw error;
   } finally {
-    console.log("finally");
+    console.info("DOM Content Loaded");
   }
 });
 

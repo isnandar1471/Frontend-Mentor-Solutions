@@ -237,6 +237,10 @@ input[type="radio"]:checked + label {
   .outer {
     max-width: 500px;
   }
+
+  .content {
+    border-radius: 25px;
+  }
 }
 
 @media (min-width: 1024px) {

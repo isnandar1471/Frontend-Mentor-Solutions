@@ -1,0 +1,302 @@
+:root {
+  --color-primary: hsl(172, 67%, 45%);
+
+  --color-dark: hsl(183, 100%, 15%);
+  --color-semidark: hsl(186, 14%, 43%);
+  --color-text-main: hsl(184, 14%, 56%);
+  --color-bg-body: hsl(185, 41%, 84%);
+  --color-bg-input: hsl(189, 47%, 97%);
+  --color-base: hsl(0, 100%, 100%);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-bg-body);
+  font-family: "Space Mono", monospace;
+}
+
+.logo {
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  padding-bottom: 10px;
+}
+
+.content {
+  border-radius: 25px 25px 0 0;
+  background-color: white;
+  padding: 30px 24px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0px 10px 0 10px;
+}
+
+.calculator .item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title {
+  color: var(--color-text-main);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.error {
+  color: red;
+}
+
+.input-number,
+.input-radio label {
+  border-radius: 5px;
+}
+
+.input-number {
+  display: flex;
+  height: 46px;
+}
+
+.input-number {
+  background-color: var(--color-bg-input);
+}
+
+.input-number input,
+.custom-percent input {
+  background-color: transparent;
+  border: 0;
+  text-align: right;
+  padding: 0 20px;
+  font-size: 24px;
+  font-family: inherit;
+}
+
+.input-number input:focus,
+#custom-percent:focus {
+  outline: none;
+}
+
+.input-number:has(input:invalid),
+#custom-percent:invalid {
+  outline: 2px solid red;
+}
+
+.input-number input {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+
+  min-width: 0;
+  font-weight: 700;
+  color: var(--color-dark);
+}
+
+.input-radio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px 6%;
+}
+
+.input-radio input[type="radio"] {
+  display: none;
+}
+
+.input-radio > * {
+  height: 48px;
+  width: 47%;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.input-radio label {
+  color: var(--color-base);
+  background-color: var(--color-dark);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="radio"]:checked + label {
+  background-color: var(--color-primary);
+  color: var(--color-dark);
+}
+
+.input-radio label {
+  width: 100%;
+  height: 100%;
+}
+
+.icon {
+  flex: 0 0 46px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#custom-percent {
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  font-weight: 700;
+  background-color: var(--color-bg-input);
+  color: var(--color-dark);
+}
+
+.result {
+  background-color: var(--color-dark);
+  border-radius: 10px;
+  padding: 30px 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.result .top {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.result .item {
+  display: flex;
+  align-items: center;
+}
+
+.result .item .description {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 100px;
+}
+
+.result .footer {
+  font-size: 14px;
+}
+.amount {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+  text-align: right;
+  font-size: 32px;
+}
+
+.result .header {
+  color: var(--color-base);
+  font-weight: 700;
+}
+
+.result .footer {
+  color: var(--color-text-main);
+}
+
+.result .amount {
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+#reset {
+  background-color: var(--color-primary);
+  color: var(--color-dark);
+  font-weight: 700;
+  font-family: inherit;
+  font-size: 20px;
+  height: 50px;
+  border: 0;
+  border-radius: 5px;
+}
+
+@media (min-width: 420px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .outer {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .outer {
+    max-width: unset;
+    width: 920px;
+  }
+
+  .logo {
+    height: 200px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border-radius: 20px;
+    padding: 30px 30px;
+  }
+
+  .calculator {
+    padding: 0 20px;
+
+    gap: 40px;
+  }
+
+  .content > * {
+    width: 50%;
+  }
+
+  .input-radio {
+    display: flex;
+    flex-direction: row;
+    gap: 15px 4%;
+  }
+
+  .input-radio > * {
+    width: 30%;
+  }
+
+  #custom-percent {
+    padding-inline: 10px;
+  }
+  .result {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 40px;
+  }
+
+  .amount {
+    font-size: 42px;
+  }
+}

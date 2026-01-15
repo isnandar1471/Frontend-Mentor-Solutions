@@ -29,6 +29,8 @@ Each project is organized into its own folder, and every folder already has its 
 | [Article preview component](./Article%20preview%20component/)                                             | https://isnandar1471.github.io/Frontend-Mentor-Solutions/Article%20preview%20component/                          |
 | [Newsletter sign-up form with success message](./Newsletter%20sign-up%20form%20with%20success%20message/) | https://isnandar1471.github.io/Frontend-Mentor-Solutions/Newsletter%20sign-up%20form%20with%20success%20message/ |
 | [Time tracking dashboard solution](./Time%20tracking%20dashboard%20solution/)                             | https://isnandar1471.github.io/Frontend-Mentor-Solutions/Time%20tracking%20dashboard%20solution/                 |
+| [Tip calculator app](./Tip%20calculator%20app/)                                                           | https://isnandar1471.github.io/Frontend-Mentor-Solutions/Tip%20calculator%20app/                                 |
+| [FAQ accordion](./FAQ%20accordion/)                                                                       | https://isnandar1471.github.io/Frontend-Mentor-Solutions/FAQ%20accordion                                         |
 
 ---
 

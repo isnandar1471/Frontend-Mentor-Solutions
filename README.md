@@ -31,14 +31,15 @@ Each project is organized into its own folder, and every folder already has its 
 | [Time tracking dashboard solution](./Time%20tracking%20dashboard%20solution/)                             | https://isnandar1471.github.io/Frontend-Mentor-Solutions/Time%20tracking%20dashboard%20solution/                 |
 | [Tip calculator app](./Tip%20calculator%20app/)                                                           | https://isnandar1471.github.io/Frontend-Mentor-Solutions/Tip%20calculator%20app/                                 |
 | [FAQ accordion](./FAQ%20accordion/)                                                                       | https://isnandar1471.github.io/Frontend-Mentor-Solutions/FAQ%20accordion                                         |
+| [Results summary component](./Results%20summary%20component)                                              | https://isnandar1471.github.io/Frontend-Mentor-Solutions/Results%20summary%20component/build                     |
 
 ---
 
 ## 🛠️ Common Tech Stack
 
 - HTML5
-- CSS3 (Flexbox, Grid, Responsive design, SCSS)
-- JavaScript
+- CSS3 (Flexbox, Grid, Responsive design, SCSS, TailwindCSS)
+- JavaScript (ReactJS)
 
 ---
 

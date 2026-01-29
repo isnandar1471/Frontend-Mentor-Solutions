@@ -1,0 +1,13 @@
+
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url("/public/assets/fonts/HankenGrotesk-VariableFont_wght.ttf")
+    format("truetype");
+  font-optical-sizing: auto;
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

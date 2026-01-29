@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.512ad690.css",
+    "main.js": "/static/js/main.7be96076.js",
+    "static/js/453.8feac531.chunk.js": "/static/js/453.8feac531.chunk.js",
+    "static/media/HankenGrotesk-VariableFont_wght.ttf": "/static/media/HankenGrotesk-VariableFont_wght.d642a5d85689aa7d33db.ttf",
+    "index.html": "/index.html",
+    "main.512ad690.css.map": "/static/css/main.512ad690.css.map",
+    "main.7be96076.js.map": "/static/js/main.7be96076.js.map",
+    "453.8feac531.chunk.js.map": "/static/js/453.8feac531.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.512ad690.css",
+    "static/js/main.7be96076.js"
+  ]
+}

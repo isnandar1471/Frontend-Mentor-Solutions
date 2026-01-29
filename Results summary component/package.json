@@ -2,6 +2,7 @@
   "name": "result-summary-component",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://isnandar1471.github.io/Frontend-Mentor-Solutions/Results%20summary%20component/build",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",

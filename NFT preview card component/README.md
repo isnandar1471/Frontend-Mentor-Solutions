@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/isnandar1471/Frontend-Mentor-Solutions/tree/main/NFT%20preview%20card%20component/
-- Live Site URL: https://isnandar1471.github.id/Frontend-Mentor-Solutions/NFT%20preview%20card%20component/build
+- Live Site URL: https://isnandar1471.github.io/Frontend-Mentor-Solutions/NFT%20preview%20card%20component/build
 
 ## My process
 

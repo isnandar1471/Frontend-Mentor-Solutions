@@ -2,7 +2,7 @@
   "name": "nft-preview-card-component",
   "version": "1.0.0",
   "main": "index.js",
-  "homepage": "https://isnandar1471.github.id/Frontend-Mentor-Solutions/NFT%20preview%20card%20component/build",
+  "homepage": "https://isnandar1471.github.io/Frontend-Mentor-Solutions/NFT%20preview%20card%20component/build",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build"

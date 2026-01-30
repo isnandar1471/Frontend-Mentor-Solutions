@@ -1,0 +1,34 @@
+{
+  "name": "nft-preview-card-component",
+  "version": "1.0.0",
+  "main": "index.js",
+  "homepage": "https://isnandar1471.github.id/Frontend-Mentor-Solutions/NFT%20preview%20card%20component/build",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
+}

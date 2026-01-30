@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Frontend-Mentor-Solutions/NFT%20preview%20card%20component/build/static/css/main.d81405e6.css",
+    "main.js": "/Frontend-Mentor-Solutions/NFT%20preview%20card%20component/build/static/js/main.db85a149.js",
+    "index.html": "/Frontend-Mentor-Solutions/NFT%20preview%20card%20component/build/index.html",
+    "main.d81405e6.css.map": "/Frontend-Mentor-Solutions/NFT%20preview%20card%20component/build/static/css/main.d81405e6.css.map",
+    "main.db85a149.js.map": "/Frontend-Mentor-Solutions/NFT%20preview%20card%20component/build/static/js/main.db85a149.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d81405e6.css",
+    "static/js/main.db85a149.js"
+  ]
+}

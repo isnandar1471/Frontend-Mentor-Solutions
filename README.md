@@ -33,7 +33,7 @@ Each project is organized into its own folder, and every folder already has its 
 | [FAQ accordion](./FAQ%20accordion/)                                                                       | https://isnandar1471.github.io/Frontend-Mentor-Solutions/FAQ%20accordion                                         |
 | [Results summary component](./Results%20summary%20component)                                              | https://isnandar1471.github.io/Frontend-Mentor-Solutions/Results%20summary%20component/build                     |
 | [NFT preview card component](./NFT%20preview%20card%20component)                                          | https://isnandar1471.github.io/Frontend-Mentor-Solutions/NFT%20preview%20card%20component/build                  |
-| [Order summary card](./Order%20summary%20card/)                                                           | https://isnandar1471.github.io/Frontend-Mentor-Solutions/Order%20summary%20card/build                            |
+| [Order summary card](./Order%20summary%20card/)                                                           | https://isnandar1471.github.io/Frontend-Mentor-Solutions/Order%20summary%20card/dist                            |
 
 ---
 

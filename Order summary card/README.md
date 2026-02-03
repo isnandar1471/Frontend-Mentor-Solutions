@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/isnandar1471/Frontend-Mentor-Solutions/tree/main/Order%20summary%20card/
-- Live Site URL: https://isnandar1471.github.io/Frontend-Mentor-Solutions/Order%20summary%20card/build
+- Live Site URL: https://isnandar1471.github.io/Frontend-Mentor-Solutions/Order%20summary%20card/dist
 
 ## My process
 

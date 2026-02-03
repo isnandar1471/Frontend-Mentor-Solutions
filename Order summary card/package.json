@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://isnandar1471.github.io/Frontend-Mentor-Solutions/Order%20summary%20card/build",
+  "homepage": "https://isnandar1471.github.io/Frontend-Mentor-Solutions/Order%20summary%20card/dist",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

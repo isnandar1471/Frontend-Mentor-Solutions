@@ -7,8 +7,8 @@ function App() {
       <main
         className="h-screen p-6 flex items-center justify-center font-redHatDisplay
                   text-cBlue950 bg-cBlue100 bg-top bg-contain bg-no-repeat
-                  bg-[url('./images/pattern-background-mobile.svg')]
-                  sm:bg-[url('./images/pattern-background-desktop.svg')]"
+                  bg-[url('/images/pattern-background-mobile.svg')]
+                  sm:bg-[url('/images/pattern-background-desktop.svg')]"
       >
         <article
           className="overflow-hidden rounded-2xl max-w-md
